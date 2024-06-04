@@ -143,6 +143,7 @@ class ControllerCheckoutCart extends Controller {
 					'price'     => $price,
 					'total'     => $total,
 					'href'      => $this->url->link('product/product', 'product_id=' . $product['product_id'])
+					
 				);
 			}
 
