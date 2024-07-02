@@ -70,3 +70,40 @@
 2024-05-12 11:07:35 - PHP Warning:  googleshopping\Googleshopping::integer(): Argument #1 ($product_id) must be passed by reference, value given in C:\OSPanel\domains\Foody5\system\library\googleshopping\googleshopping.php on line 583
 2024-05-12 11:07:35 - PHP Warning:  googleshopping\Googleshopping::integer(): Argument #1 ($product_id) must be passed by reference, value given in C:\OSPanel\domains\Foody5\system\library\googleshopping\googleshopping.php on line 583
 2024-05-12 11:07:35 - PHP Warning:  googleshopping\Googleshopping::integer(): Argument #1 ($product_id) must be passed by reference, value given in C:\OSPanel\domains\Foody5\system\library\googleshopping\googleshopping.php on line 583
+2024-06-04 18:05:34 - PHP Unknown:  Required parameter $store_id follows optional parameter $product_ids in C:\OSPanel\domains\Foody5\admin\model\extension\advertise\google.php on line 341
+2024-06-04 18:05:34 - PHP Unknown:  Required parameter $store_id follows optional parameter $data in C:\OSPanel\domains\Foody5\admin\model\extension\advertise\google.php on line 413
+2024-06-05 9:25:51 - PHP Unknown:  Required parameter $store_id follows optional parameter $product_ids in C:\OSPanel\domains\Foody5\admin\model\extension\advertise\google.php on line 341
+2024-06-05 9:25:51 - PHP Unknown:  Required parameter $store_id follows optional parameter $data in C:\OSPanel\domains\Foody5\admin\model\extension\advertise\google.php on line 413
+2024-06-05 9:25:51 - PHP Warning:  googleshopping\Googleshopping::integer(): Argument #1 ($product_id) must be passed by reference, value given in C:\OSPanel\domains\Foody5\system\library\googleshopping\googleshopping.php on line 583
+2024-07-02 14:55:53 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 14:55:53 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 14:55:53 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 14:55:53 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:01:13 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:01:13 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:01:13 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:01:13 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:01:43 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:01:43 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:01:43 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:01:43 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:20 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:20 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:20 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:20 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:24 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:24 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:24 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:24 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:51 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:51 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:51 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:02:51 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:05:05 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:05:05 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:05:05 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:05:05 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\4c\4c9e314c66fa055c2b0818fd47f96c86598576364b776007c65c0119c9bd137a.php on line 354
+2024-07-02 15:05:35 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\14\14bf57341cc676b131108d3b89a29a86adf5d9a60b3a8cd53c1f972d332448a3.php on line 354
+2024-07-02 15:05:35 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\14\14bf57341cc676b131108d3b89a29a86adf5d9a60b3a8cd53c1f972d332448a3.php on line 354
+2024-07-02 15:05:35 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\14\14bf57341cc676b131108d3b89a29a86adf5d9a60b3a8cd53c1f972d332448a3.php on line 354
+2024-07-02 15:05:35 - PHP Warning:  Array to string conversion in C:\OSPanel\domains\storage\cache\template\14\14bf57341cc676b131108d3b89a29a86adf5d9a60b3a8cd53c1f972d332448a3.php on line 354
