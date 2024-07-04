@@ -9810,3 +9810,12 @@ div.required-option strong::before {
   font-weight: bold;
   padding-right: 5px;
 }
+
+.c-f-star {
+  font-size: 1em  !important;
+  color: var(--yellow) !important;
+}
+
+.c-f-star-mpt {
+  color: var(--gray) !important;
+}
