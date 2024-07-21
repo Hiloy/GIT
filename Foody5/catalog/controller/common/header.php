@@ -80,6 +80,9 @@ class ControllerCommonHeader extends Controller {
 		$data['top_menu'] = $this->load->controller('extension/ctmenu', ['id' => 5, 'tpl' => 'base']);
 		$data['navbar_menu'] = $this->load->controller('extension/ctmenu', ['id' => 6, 'tpl' => 'div-base']);
 
+		$data['compare'] = $this->url->link('product/compare');
+		$data['text_compare'] = isset($this->session->data['compare']) ? count($this->session->data['compare']) : 0;
+
 		return $this->load->view('common/header', $data);
 	}
 }
