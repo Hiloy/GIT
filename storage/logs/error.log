@@ -1,0 +1,6 @@
+2024-07-21 11:46:25 - PHP Unknown:  Required parameter $store_id follows optional parameter $product_ids in C:\OSPanel\domains\Foody5\admin\model\extension\advertise\google.php on line 341
+2024-07-21 11:46:25 - PHP Unknown:  Required parameter $store_id follows optional parameter $data in C:\OSPanel\domains\Foody5\admin\model\extension\advertise\google.php on line 413
+2024-07-21 11:46:25 - PHP Warning:  googleshopping\Googleshopping::integer(): Argument #1 ($product_id) must be passed by reference, value given in C:\OSPanel\domains\Foody5\system\library\googleshopping\googleshopping.php on line 583
+2024-07-21 12:02:36 - PHP Unknown:  Required parameter $store_id follows optional parameter $product_ids in C:\OSPanel\domains\Foody5\admin\model\extension\advertise\google.php on line 341
+2024-07-21 12:02:36 - PHP Unknown:  Required parameter $store_id follows optional parameter $data in C:\OSPanel\domains\Foody5\admin\model\extension\advertise\google.php on line 413
+2024-07-21 12:02:36 - PHP Warning:  googleshopping\Googleshopping::integer(): Argument #1 ($product_id) must be passed by reference, value given in C:\OSPanel\domains\Foody5\system\library\googleshopping\googleshopping.php on line 583

@@ -288,13 +288,44 @@ var wishlist = {
 				}
 
 				if (json['success']) {
-					$('#content').parent().before('<div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+					let html = `<div class="modal fade" id="wishlistModal" tabindex="-1" aria-labelledby="wishlistModal" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title">Повідомлення</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									${json['success']}
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">${btnClose}</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					`;
+					$('body').append(html);
+
+					$('#wishlistModal').modal('show');
+					$('#wishlist-total').html(json['total']);
+					/*$('#content').parent().before('<div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+
+					$('#compare-total').html(json['total']);
+
+					$('html, body').animate({ scrollTop: 0 }, 'slow');*/
 				}
 
-				$('#wishlist-total span').html(json['total']);
-				$('#wishlist-total').attr('title', json['total']);
+				// if (json['success']) {
+				// 	$('#content').parent().before('<div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+				// }
 
-				$('html, body').animate({ scrollTop: 0 }, 'slow');
+				// $('#wishlist-total span').html(json['total']);
+				// $('#wishlist-total').attr('title', json['total']);
+
+				// $('html, body').animate({ scrollTop: 0 }, 'slow');
 			},
 			error: function (xhr, ajaxOptions, thrownError) {
 				alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
