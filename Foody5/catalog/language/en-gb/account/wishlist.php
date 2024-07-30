@@ -18,3 +18,6 @@ $_['column_model']  = 'Model';
 $_['column_stock']  = 'Stock';
 $_['column_price']  = 'Unit Price';
 $_['column_action'] = 'Action';
+
+$_['text_remove_wishlist'] = 'success';
+$_['text_add_wishlist'] = 'Item added to <a href="%s">wishlist</a>';

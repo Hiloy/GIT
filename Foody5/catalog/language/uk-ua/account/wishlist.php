@@ -19,3 +19,6 @@ $_['column_model'] = 'Модель';
 $_['column_stock'] = 'Наявність';
 $_['column_price'] = 'Ціна за одиницю товару';
 $_['column_action'] = 'Дія';
+
+$_['text_remove_wishlist'] = 'Товар видалено зі <a href="%s">списку бажань</a>';
+$_['text_add_wishlist'] = 'Товар додано до <a href="%s">списку бажань</a>';
