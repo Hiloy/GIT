@@ -352,26 +352,33 @@ class ControllerProductCategory extends Controller {
 			$data['order'] = $order;
 			$data['limit'] = $limit;
 
-            if ($this->isAjax()) {
-                $products = '';
-                if ($data['products']) {
-                    foreach ($data['products'] as $product) {
-                        $arr['product'] = $product;
-                        $products .= '<div class="col-lg-4 col-sm-6 pb-1">' . $this->load->view('product_card', $arr) . '</div>';
-                    }
-                }
-                ob_start();
-                require DIR_TEMPLATE . $this->config->get('config_theme') . "/template/category_sorts.php";
-                $ajax_sorts = ob_get_clean();
-                $res = [
-                    'url' => $_GET['url'],
-                    'sorts' => $ajax_sorts,
-                    'pagination' => $data['pagination'],
-                    'products' => $products ?: '<div class="col"><p>За вашим запитом нічого не знайдено...</p></div>',
-                ];
-                echo json_encode($res);
-                die;
-            }
+		// Wishlist
+		$data['wishlist_product_ids'] = $_COOKIE['wishlist'] ?? [];
+		if ($data['wishlist_product_ids']) {
+				$data['wishlist_product_ids'] = explode('-', $data['wishlist_product_ids']);
+		}
+
+				if ($this->isAjax()) {
+					$products = '';
+					if ($data['products']) {
+							foreach ($data['products'] as $product) {
+									$arr['product'] = $product;
+									$arr['wishlist_product_ids'] = $data['wishlist_product_ids'];
+									$products .= '<div class="col-lg-4 col-sm-6 pb-1">' . $this->load->view('product_card', $arr) . '</div>';
+							}
+					}
+					ob_start();
+					require DIR_TEMPLATE . $this->config->get('config_theme') . "/template/category_sorts.php";
+					$ajax_sorts = ob_get_clean();
+					$res = [
+							'url' => $_GET['url'],
+							'sorts' => $ajax_sorts,
+							'pagination' => $data['pagination'],
+							'products' => $products ?: '<div class="col"><p>По Вашему запросу ничего не найдено...</p></div>',
+					];
+					echo json_encode($res);
+					die;
+		}
 
 			$data['continue'] = $this->url->link('common/home');
 
@@ -381,6 +388,7 @@ class ControllerProductCategory extends Controller {
 			$data['content_bottom'] = $this->load->controller('common/content_bottom');
 			$data['footer'] = $this->load->controller('common/footer');
 			$data['header'] = $this->load->controller('common/header');
+			
 
 			$this->response->setOutput($this->load->view('product/category', $data));
 		} else {
