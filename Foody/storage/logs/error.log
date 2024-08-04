@@ -1,0 +1,2 @@
+2024-08-02 19:13:26 - PHP Warning:  rmdir(C:/OSPanel/domains/Foody/storage/cache/template/a0): Directory not empty in C:\OSPanel\domains\Foody\admin\controller\extension\module\oc3x_storage_cleaner.php on line 140
+2024-08-02 19:13:26 - PHP Warning:  rmdir(C:/OSPanel/domains/Foody/storage/cache/template): Directory not empty in C:\OSPanel\domains\Foody\admin\controller\extension\module\oc3x_storage_cleaner.php on line 140
